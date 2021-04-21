@@ -510,7 +510,7 @@ class Task(models.Model):
         default=lambda self: self.env.uid,
         index=True, tracking=True)
     reviewer_id = fields.Many2one('res.users',
-        string='Solicitante',
+        string='Solicitante2',
         default=lambda self: self.env.uid,
         index=True, tracking=True)
     partner_id = fields.Many2one('res.partner',
