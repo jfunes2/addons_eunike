@@ -471,8 +471,7 @@
                                 class="o_task_user_field"
                                 options='{"no_open": True}'/>
                             <field name="reviewer_id"
-                                class="o_task_user_field"
-                                options='{"no_open": True}'/>
+                                class="o_task_user_field"/>
                             <field name="legend_blocked" invisible="1"/>
                             <field name="legend_normal" invisible="1"/>
                             <field name="legend_done" invisible="1"/>
